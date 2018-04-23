@@ -2,7 +2,7 @@
 
 A Office365 package for Laravel 5.2 or higher
  
-##Installation
+## Installation
 
 ````
 composer require moathdev/office365-laravel
@@ -36,7 +36,7 @@ OFFICE365_REDIRECT_URI=http://localhost:8000/redirect
 OFFICE365_SCOPES='openid profile offline_access User.Read Mail.Read'
 
 ````
-##Example Usage
+## Example Usage
 ````
 <?php
 
@@ -70,7 +70,7 @@ class AuthController extends Controller
 }
  ````
 Methods supported by this package and their parameters can be found in the [API Reference](https://docs.microsoft.com/en-us/outlook/rest/php-tutorial) 
-##Issues
+## Issues
 
 ````
 
